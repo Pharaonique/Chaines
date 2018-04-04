@@ -1,5 +1,6 @@
 #include "grman/grman.h"
 #include <iostream>
+#include <fstream>
 
 #include "graph.h"
 
@@ -14,6 +15,7 @@ int main()
     /// Un exemple de graphe
     Graph g;
     g.make_example();
+
 
 
     /// Vous gardez la main sur la "boucle de jeu"

@@ -5,8 +5,9 @@
 1522690865 c:\users\user\desktop\projet tg\graph_lib_v1\graph_lib_exemple_graph\grman\coords.h
 	<cmath>
 
-1522769739 source:c:\users\user\desktop\projet tg\graph_lib_v1\graph_lib_exemple_graph\graph.cpp
+1522844658 source:c:\users\user\desktop\projet tg\graph_lib_v1\graph_lib_exemple_graph\graph.cpp
 	"graph.h"
+	<fstream>
 
 1522690864 c:\users\user\desktop\projet tg\graph_lib_v1\graph_lib_exemple_graph\graph.h
 	<vector>
@@ -35,9 +36,10 @@
 1522767039 source:c:\users\user\desktop\projet tg\graph_lib_v1\graph_lib_exemple_graph\grman\widget.cpp
 	"widget.h"
 
-1522690865 source:c:\users\user\desktop\projet tg\graph_lib_v1\graph_lib_exemple_graph\main.cpp
+1522838035 source:c:\users\user\desktop\projet tg\graph_lib_v1\graph_lib_exemple_graph\main.cpp
 	"grman/grman.h"
 	<iostream>
+	<fstream>
 	"graph.h"
 
 1522766445 source:c:\users\user\desktop\projet tg\graph_lib_v1\graph_lib_exemple_graph\grman\grman.cpp

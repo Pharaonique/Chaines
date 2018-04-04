@@ -1,5 +1,5 @@
 #include "graph.h"
-
+#include <fstream>
 /***************************************************
                     VERTEX
 ****************************************************/
@@ -159,37 +159,42 @@ GraphInterface::GraphInterface(int x, int y, int w, int h)
 void Graph::make_example()
 {
     m_interface = std::make_shared<GraphInterface>(50, 0, 750, 600);
-    // La ligne précédente est en gros équivalente à :
-    // m_interface = new GraphInterface(50, 0, 750, 600);
+    std::ifstream fichier("Fish.txt");
 
-    /// Les sommets doivent être définis avant les arcs
-    // Ajouter le sommet d'indice 0 de valeur 30 en x=200 et y=100 avec l'image clown1.jpg etc...
-    add_interfaced_vertex(0, 30.0, 200, 100, "Grand-requin.png");
-    add_interfaced_vertex(1, 60.0, 400, 100, "Lancet.png");
-    add_interfaced_vertex(2,  50.0, 200, 300, "Marlin.png");
-    add_interfaced_vertex(3,  0.0, 400, 300, "crevette.png");
-    add_interfaced_vertex(4,  100.0, 600, 300, "Lantern.png");
-    add_interfaced_vertex(5,  0.0, 100, 500, "Requin.png");
-    add_interfaced_vertex(6,  0.0, 300, 500, "Squid.png");
-    add_interfaced_vertex(7,  0.0, 500, 500, "Thon.png");
-    add_interfaced_vertex(8,  100.0, 600, 300, "Amphipods.png");
-    add_interfaced_vertex(9,  0.0, 100, 500, "Sunfish.png");
-    add_interfaced_vertex(10,  0.0, 300, 500, "Mackerel.png");
-    add_interfaced_vertex(11,  0.0, 500, 500, "Dinoflagellates.png");
+    int k,m,n,q,r,s;
+    double l,t;
+    std::string o;
+
+    if(fichier)
+    {
+        for(int i=0; i<32; i++)
+        {
+            if(i<12)
+            {
+                fichier >> k;
+                fichier >> l;
+                fichier >> m;
+                fichier >> n;
+                fichier >> o;
 
 
-    /// Les arcs doivent être définis entre des sommets qui existent !
-    // AJouter l'arc d'indice 0, allant du sommet 1 au sommet 2 de poids 50 etc...
-    add_interfaced_edge(0, 1, 2, 50.0);
-    add_interfaced_edge(1, 0, 1, 50.0);
-    add_interfaced_edge(2, 1, 3, 75.0);
-    add_interfaced_edge(3, 4, 1, 25.0);
-    add_interfaced_edge(4, 6, 3, 25.0);
-    add_interfaced_edge(5, 7, 3, 25.0);
-    add_interfaced_edge(6, 3, 4, 0.0);
-    add_interfaced_edge(7, 2, 0, 100.0);
-    add_interfaced_edge(8, 5, 2, 20.0);
-    add_interfaced_edge(9, 3, 7, 80.0);
+                    add_interfaced_vertex(k, l, m, n, o);
+
+
+            }
+            else
+            {
+                fichier >> q;
+                fichier >> r;
+                fichier >> s;
+                fichier >> t;
+
+                add_interfaced_edge(q, r, s, t);
+            }
+        }
+    }
+
+    fichier.close();
 }
 
 /// La méthode update à appeler dans la boucle de jeu pour les graphes avec interface
