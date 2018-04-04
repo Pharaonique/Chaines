@@ -1,0 +1,192 @@
+# depslib dependency file v1.0
+1490110974 source:c:\users\daniel\desktop\projet d'info(rts)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+
+1493135029 source:c:\users\taurloc\dropbox\ece\info\projet info sem2_2(rts)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	"Map.h"
+	"StructuresJoueur.h"
+	"StructuresEnnemis.h"
+
+1493127203 source:c:\users\daniel\dropbox\ece\info\projet info sem2_2(rts)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+	"Map.h"
+	"StructuresJoueur.h"
+	"StructuresEnnemis.h"
+
+1490703706 c:\users\daniel\dropbox\ece\info\projet info sem2_2(rts)\structures.h
+
+1490312866 c:\users\daniel\dropbox\ece\info\projet info sem2_2(rts)\prototypes.h
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+
+1490395649 c:\users\taurloc\dropbox\ece\info\projet info sem2_2(rts)\structures.h
+
+1490309266 c:\users\taurloc\dropbox\ece\info\projet info sem2_2(rts)\prototypes.h
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+
+1490639579 c:\users\taurloc\dropbox\ece\info\projet info sem2_2(rts)\map.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+
+1493059703 c:\users\taurloc\dropbox\ece\info\projet info sem2_2(rts)\map.h
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+
+1490645105 source:c:\users\taurloc\dropbox\ece\info\projet info sem2_2(rts)\map.c
+	"Map.h"
+
+1493063303 c:\users\daniel\dropbox\ece\info\projet info sem2_2(rts)\map.h
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+
+1490648705 source:c:\users\daniel\dropbox\ece\info\projet info sem2_2(rts)\map.c
+	"Map.h"
+
+1493127799 c:\users\daniel\dropbox\ece\info\projet info sem2_2(rts)\structuresjoueur.h
+	<math.h>
+
+1493061792 c:\users\daniel\dropbox\ece\info\projet info sem2_2(rts)\structuresennemis.h
+
+1493132824 c:\users\taurloc\dropbox\ece\info\projet info sem2_2(rts)\structuresjoueur.h
+
+1493134085 c:\users\taurloc\dropbox\ece\info\projet info sem2_2(rts)\structuresennemis.h
+
+1493122622 source:c:\users\daniel\dropbox\ece\info\untitled1.c
+
+1493119022 source:c:\users\taurloc\dropbox\ece\info\untitled1.c
+
+1493684854 source:c:\users\taurloc\dropbox\ece\projet inf\nouveau dossier\projet info sem2_2(rts)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	"Map.h"
+	"StructuresJoueur.h"
+	"StructuresEnnemis.h"
+
+1493600112 c:\users\taurloc\dropbox\ece\projet inf\nouveau dossier\projet info sem2_2(rts)\map.h
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+
+1493658418 c:\users\taurloc\dropbox\ece\projet inf\nouveau dossier\projet info sem2_2(rts)\structuresjoueur.h
+
+1493661062 c:\users\taurloc\dropbox\ece\projet inf\nouveau dossier\projet info sem2_2(rts)\structuresennemis.h
+
+1493600112 source:c:\users\taurloc\dropbox\ece\projet inf\nouveau dossier\projet info sem2_2(rts)\map.c
+	"Map.h"
+
+1493603712 source:c:\users\noary\dropbox\projet inf\nouveau dossier\projet info sem2_2(rts)\map.c
+	"Map.h"
+
+1493603712 c:\users\noary\dropbox\projet inf\nouveau dossier\projet info sem2_2(rts)\map.h
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+
+1493755844 source:c:\users\noary\dropbox\projet inf\nouveau dossier\projet info sem2_2(rts)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	"Map.h"
+	"StructuresJoueur.h"
+	"StructuresEnnemis.h"
+
+1493662018 c:\users\noary\dropbox\projet inf\nouveau dossier\projet info sem2_2(rts)\structuresjoueur.h
+
+1493664662 c:\users\noary\dropbox\projet inf\nouveau dossier\projet info sem2_2(rts)\structuresennemis.h
+
+1493509256 source:c:\users\moi_m\dropbox\projet inf\nouveau dossier\projet info sem2_2(rts)\map.c
+	"Map.h"
+
+1493424952 c:\users\moi_m\dropbox\projet inf\nouveau dossier\projet info sem2_2(rts)\map.h
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+
+1493582987 source:c:\users\moi_m\dropbox\projet inf\nouveau dossier\projet info sem2_2(rts)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	"Map.h"
+	"StructuresJoueur.h"
+	"StructuresEnnemis.h"
+
+1493516747 c:\users\moi_m\dropbox\projet inf\nouveau dossier\projet info sem2_2(rts)\structuresjoueur.h
+
+1493516739 c:\users\moi_m\dropbox\projet inf\nouveau dossier\projet info sem2_2(rts)\structuresennemis.h
+
+1493687636 source:c:\users\daniel\dropbox\ece\projet inf\nouveau dossier\projet info sem2_2(rts)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	"Map.h"
+	"StructuresJoueur.h"
+	"StructuresEnnemis.h"
+
+1493603712 c:\users\daniel\dropbox\ece\projet inf\nouveau dossier\projet info sem2_2(rts)\map.h
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+
+1493662018 c:\users\daniel\dropbox\ece\projet inf\nouveau dossier\projet info sem2_2(rts)\structuresjoueur.h
+
+1493664662 c:\users\daniel\dropbox\ece\projet inf\nouveau dossier\projet info sem2_2(rts)\structuresennemis.h
+
+1493603712 source:c:\users\daniel\dropbox\ece\projet inf\nouveau dossier\projet info sem2_2(rts)\map.c
+	"Map.h"
+
+1493755844 source:c:\users\noary\projet info 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	"Map.h"
+	"StructuresJoueur.h"
+	"StructuresEnnemis.h"
+
+1493603712 c:\users\noary\projet info 2\map.h
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+
+1493662018 c:\users\noary\projet info 2\structuresjoueur.h
+
+1493664662 c:\users\noary\projet info 2\structuresennemis.h
+
+1493603712 source:c:\users\noary\projet info 2\map.c
+	"Map.h"
+
