@@ -36,7 +36,7 @@
 1522767039 source:c:\users\user\desktop\projet tg\graph_lib_v1\graph_lib_exemple_graph\grman\widget.cpp
 	"widget.h"
 
-1522838035 source:c:\users\user\desktop\projet tg\graph_lib_v1\graph_lib_exemple_graph\main.cpp
+1522845815 source:c:\users\user\desktop\projet tg\graph_lib_v1\graph_lib_exemple_graph\main.cpp
 	"grman/grman.h"
 	<iostream>
 	<fstream>
@@ -55,4 +55,209 @@
 	<png.h>
 	<loadpng.h>
 	<jpgalleg.h>
+
+1522931698 source:c:\users\user\desktop\projet tg\projet tg\graph.cpp
+	"graph.h"
+	<fstream>
+
+1522870022 c:\users\user\desktop\projet tg\projet tg\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522690866 c:\users\user\desktop\projet tg\projet tg\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522690866 c:\users\user\desktop\projet tg\projet tg\grman\grman_couleurs.h
+
+1522690865 c:\users\user\desktop\projet tg\projet tg\grman\coords.h
+	<cmath>
+
+1522870266 c:\users\user\desktop\projet tg\projet tg\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522690865 source:c:\users\user\desktop\projet tg\projet tg\grman\coords.cpp
+	"coords.h"
+
+1522766445 source:c:\users\user\desktop\projet tg\projet tg\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522767039 source:c:\users\user\desktop\projet tg\projet tg\grman\widget.cpp
+	"widget.h"
+
+1522931638 source:c:\users\user\desktop\projet tg\projet tg\main.cpp
+	"grman/grman.h"
+	<iostream>
+	<fstream>
+	"graph.h"
+
+1522945433 source:c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\chaines-master\projet tg\projet tg\graph.cpp
+	"graph.h"
+	<fstream>
+	"Sous-p.h"
+
+1522945403 c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\chaines-master\projet tg\projet tg\graph.h
+	"Sous-p.h"
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522899770 c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\chaines-master\projet tg\projet tg\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522899770 c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\chaines-master\projet tg\projet tg\grman\grman_couleurs.h
+
+1522899770 c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\chaines-master\projet tg\projet tg\grman\coords.h
+	<cmath>
+
+1522899770 c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\chaines-master\projet tg\projet tg\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522899770 source:c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\chaines-master\projet tg\projet tg\grman\coords.cpp
+	"coords.h"
+
+1522899770 source:c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\chaines-master\projet tg\projet tg\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522899770 source:c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\chaines-master\projet tg\projet tg\grman\widget.cpp
+	"widget.h"
+
+1522943706 source:c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\chaines-master\projet tg\projet tg\main.cpp
+	"grman/grman.h"
+	<iostream>
+	<fstream>
+	"Sous-p.h"
+	"graph.h"
+
+1522945403 source:c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\chaines-master\projet tg\projet tg\sous-p.cpp
+	"Sous-p.h"
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+	"graph.h"
+
+1522943379 c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\chaines-master\projet tg\projet tg\sous-p.h
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+	"graph.h"
+
+1522945433 source:c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\projet theorie\projet tg\graph.cpp
+	"graph.h"
+	<fstream>
+	"Sous-p.h"
+
+1522945403 c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\projet theorie\projet tg\graph.h
+	"Sous-p.h"
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522943379 c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\projet theorie\projet tg\sous-p.h
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+	"graph.h"
+
+1522899770 c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\projet theorie\projet tg\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522899770 c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\projet theorie\projet tg\grman\grman_couleurs.h
+
+1522899770 c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\projet theorie\projet tg\grman\coords.h
+	<cmath>
+
+1522899770 c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\projet theorie\projet tg\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522899770 source:c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\projet theorie\projet tg\grman\coords.cpp
+	"coords.h"
+
+1522899770 source:c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\projet theorie\projet tg\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522899770 source:c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\projet theorie\projet tg\grman\widget.cpp
+	"widget.h"
+
+1522943706 source:c:\users\noary\desktop\cours ece ing 2\semestre 2\theorie\projet theorie\projet tg\main.cpp
+	"grman/grman.h"
+	<iostream>
+	<fstream>
+	"Sous-p.h"
+	"graph.h"
 

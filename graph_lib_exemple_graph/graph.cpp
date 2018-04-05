@@ -1,5 +1,6 @@
 #include "graph.h"
 #include <fstream>
+#include "Sous-p.h"
 /***************************************************
                     VERTEX
 ****************************************************/
@@ -156,9 +157,9 @@ GraphInterface::GraphInterface(int x, int y, int w, int h)
 /// de chargement de fichiers par exemple.
 /// Bien sûr on ne veut pas que vos graphes soient construits
 /// "à la main" dans le code comme ça.
-void Graph::make_example()
-{
-    m_interface = std::make_shared<GraphInterface>(50, 0, 750, 600);
+void Graph::make_example(std::string graphe)
+{   m_interface = std::make_shared<GraphInterface>(50, 0, 750, 600);
+   /* m_interface = std::make_shared<GraphInterface>(50, 0, 750, 600);
     std::ifstream fichier("Fish.txt");
 
     int k,m,n,q,r,s;
@@ -192,9 +193,74 @@ void Graph::make_example()
                 add_interfaced_edge(q, r, s, t);
             }
         }
-    }
+    }*/
+    /*std::ifstream fichier ("Fish.txt",std::ios::in);*/
+
+    std::ifstream fichier(graphe.c_str());
+    int indxVertex,posX, posY, indxEdge, vertexIn, vertexOut;
+    double poidEdge,poidVertex;
+    std::string picName;
+
+
+    if (fichier){
+
+        fichier >> Graph::ordre;
+
+        fichier >> Graph::nbrEdge;
+        std::cout<< nbrEdge;
+        for(int i=0 ; i < ordre ; i++){
+
+        fichier >> poidVertex;
+        fichier >> posX;
+        fichier >> posY;
+        fichier >> picName;
+
+        add_interfaced_vertex(i,poidVertex,posX,posY,picName);
+        }
+        for(int j=0 ; j < nbrEdge ; j++){
+
+            fichier >> vertexIn;
+            fichier >> vertexOut;
+            fichier >> poidEdge;
+            add_interfaced_edge(j,vertexIn,vertexOut,poidEdge);
+
+
+        }
+
 
     fichier.close();
+
+}}
+
+void Graph::sauvgarder(std::string graphe){
+
+    /*std::ofstream fichier("Fish.txt",std::ios::out | std::ios::trunc);*/
+    std::ofstream fichier(graphe.c_str(),std::ios::out | std::ios::trunc);
+
+    std::string picName;
+        if(fichier){
+            fichier << Graph::ordre <<std::endl;
+            fichier << Graph::nbrEdge<<std::endl;
+
+            for(auto &elt : m_vertices){
+         fichier << elt.second.m_value<<" ";
+         fichier <<elt.second.m_interface->m_top_box.get_frame_pos().x<<" ";
+         fichier <<elt.second.m_interface->m_top_box.get_frame_pos().y<<" ";
+        picName=elt.second.m_interface->m_img.get_pic_name();
+        picName.erase(picName.size()-4,4);
+         fichier <<picName + ".png"<<std::endl;
+    }
+        for(auto &elt : m_edges){
+
+            fichier << elt.second.m_from<<" ";
+            fichier << elt.second.m_to<<" ";
+            fichier << elt.second.m_weight<<std::endl;
+
+        }
+        fichier.close();
+        std::cout<<"Sauvegarde done";
+        }
+
 }
 
 /// La méthode update à appeler dans la boucle de jeu pour les graphes avec interface
@@ -253,5 +319,14 @@ void Graph::add_interfaced_edge(int idx, int id_vert1, int id_vert2, double weig
     EdgeInterface *ei = new EdgeInterface(m_vertices[id_vert1], m_vertices[id_vert2]);
     m_interface->m_main_box.add_child(ei->m_top_edge);
     m_edges[idx] = Edge(weight, ei);
+    m_edges[idx].m_from = id_vert1;
+
+    m_edges[idx].m_to = id_vert2;
+
+
+
+    m_vertices[id_vert1].m_out.push_back(idx);
+
+    m_vertices[id_vert2].m_in.push_back(idx);
 }
 

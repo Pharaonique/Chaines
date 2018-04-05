@@ -1,5 +1,6 @@
 #ifndef GRAPH_H_INCLUDED
 #define GRAPH_H_INCLUDED
+#include "Sous-p.h"
 
 /**************************************************************
     Ici sont proposées 3 classes fondamentales
@@ -281,7 +282,8 @@ class Graph
 
         /// La "liste" des arêtes
         std::map<int, Edge> m_edges;
-
+        int ordre;
+        int nbrEdge;
         /// La liste des sommets
         std::map<int, Vertex> m_vertices;
 
@@ -303,9 +305,8 @@ class Graph
         /// Voir implémentation dans le .cpp
         /// Cette méthode est à enlever et remplacer par un système
         /// de chargement de fichiers par exemple.
-        void make_example();
-
-
+        void make_example(std::string graphe);
+        void sauvgarder(std::string graphe);
         /// La méthode update à appeler dans la boucle de jeu pour les graphes avec interface
         void update();
 };
