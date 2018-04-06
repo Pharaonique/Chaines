@@ -156,44 +156,10 @@ GraphInterface::GraphInterface(int x, int y, int w, int h)
 /// de chargement de fichiers par exemple.
 /// Bien sûr on ne veut pas que vos graphes soient construits
 /// "à la main" dans le code comme ça.
-void Graph::make_example()
+void Graph::make_example(std::string b)
 {   m_interface = std::make_shared<GraphInterface>(50, 0, 750, 600);
-   /* m_interface = std::make_shared<GraphInterface>(50, 0, 750, 600);
-    std::ifstream fichier("Fish.txt");
 
-    int k,m,n,q,r,s;
-    double l,t;
-    std::string o;
-
-    if(fichier)
-    {
-        for(int i=0; i<32; i++)
-        {
-            if(i<12)
-            {
-                fichier >> k;
-                fichier >> l;
-                fichier >> m;
-                fichier >> n;
-                fichier >> o;
-
-
-                    add_interfaced_vertex(k, l, m, n, o);
-
-
-            }
-            else
-            {
-                fichier >> q;
-                fichier >> r;
-                fichier >> s;
-                fichier >> t;
-
-                add_interfaced_edge(q, r, s, t);
-            }
-        }
-    }*/
-    std::ifstream fichier ("Fish.txt",std::ios::in);
+    std::ifstream fichier (b,std::ios::in);
     int indxVertex,posX, posY, indxEdge, vertexIn, vertexOut;
     double poidEdge,poidVertex;
     std::string picName;
@@ -229,9 +195,9 @@ void Graph::make_example()
 
 }}
 
-void Graph::sauvgarder(){
+void Graph::sauvgarder(std::string b){
 
-    std::ofstream fichier("Fish.txt",std::ios::out | std::ios::trunc);
+    std::ofstream fichier(b,std::ios::out | std::ios::trunc);
     std::string picName;
         if(fichier){
             fichier << Graph::ordre <<std::endl;
@@ -243,7 +209,7 @@ void Graph::sauvgarder(){
          fichier <<elt.second.m_interface->m_top_box.get_frame_pos().y<<" ";
         picName=elt.second.m_interface->m_img.get_pic_name();
         picName.erase(picName.size()-4,4);
-         fichier <<picName+ ".png"<<std::endl;
+         fichier <<picName + ".png"<<std::endl;
     }
         for(auto &elt : m_edges){
 
@@ -253,10 +219,55 @@ void Graph::sauvgarder(){
 
         }
         fichier.close();
-        std::cout<<"Sauvegarde done";
+        //std::cout<<"Sauvegarde done";
         }
 
 }
+//void Graph::ajouter(){
+//
+//int i_sommet, i_arete, x1 ,y1, cpt, from,to;
+//float p_sommet,p_arete;
+//std::string nom_image, n_sommet;
+//
+//if(mouse_b & 2)
+//{
+//    x1= mouse_x;
+//    y1= mouse_y;
+//    std::cout<<"indice  :  "<< std::endl;
+//    std::cin>> i_sommet;
+//    std::cout<<"nom  :  "<< std::endl;
+//    std::cin>> n_sommet;
+//    std::cout<<"valeur  :  "<< std::endl;
+//    std::cin>> p_sommet;
+//    add_interfaced_vertex(i_sommet,p_sommet,x1,y1,n_sommet);
+//
+//    std::cout<<"cb d'aretes?  "<<std::endl;
+//    std::cin>> cpt;
+//
+//    for(int i=0; i<cpt; i++)
+//    {
+//        std::cout<<"indice arete :  "<< std::endl;
+//        std::cin>> i_arete;
+//        std::cout<<"depart  :  "<< std::endl;
+//        std::cin>> from;
+//        std::cout<<"arrive  :  "<< std::endl;
+//        std::cin>> to;
+//        std::cout<<"poids  :  "<< std::endl;
+//        std::cin>> p_arete;
+//        add_interfaced_edge(i_arete,from,to, p_arete);
+//
+//    }
+//
+//}
+//
+//std::cout<<" entrer le sommet 1  ";
+//std::cin>> from;
+//std::cout<<" entrer le sommet 2  ";
+//std::cin>> to;
+//
+//        for(int j=0 ; j < 30 ; j++){
+//add_interfaced_edge(j, from,to,66);}
+//}
 
 
 

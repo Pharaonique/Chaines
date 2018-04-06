@@ -304,8 +304,9 @@ class Graph
         /// Voir implémentation dans le .cpp
         /// Cette méthode est à enlever et remplacer par un système
         /// de chargement de fichiers par exemple.
-        void make_example();
-        void sauvgarder();
+        void make_example(std::string b);
+        void sauvgarder(std::string b);
+        void ajouter();
         /// La méthode update à appeler dans la boucle de jeu pour les graphes avec interface
         void update();
 };

@@ -1,17 +1,17 @@
 12
 20
-50 307 240 GrandRe.png
-50 775 196 Re.png
-0 775 48 Ma.png
-50 117 617 .png
-50 402 450 La.png
-50 578 154 Sun.png
-50 702 270 Mack.png
-50 161 330 Lan.png
-50 169 442 Amphi.png
-50 27 463 Sun.png
-0 417 516 Crev.png
-50 395 3 Dinoflagell.png
+50 20 20 GrandRequin.png
+50 120 120 Requin.png
+50 220 220 Marlin.png
+50 320 320 Thon.png
+50 420 420 Lancet.png
+50 520 520 Squid.png
+50 100 300 Mackerel.png
+50 100 500 Lantern.png
+50 200 100 Amphipods.png
+50 739 246 Sunfish.png
+50 50 50 Crevette.png
+50 600 600 Dinoflagellates.png
 0 1 50
 0 2 50
 0 3 50
