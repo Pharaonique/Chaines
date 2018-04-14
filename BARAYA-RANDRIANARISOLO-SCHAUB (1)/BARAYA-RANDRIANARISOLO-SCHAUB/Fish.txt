@@ -1,0 +1,35 @@
+12
+21
+100 353 11 GrandRequin.png
+45.7143 4 37 Requin.png
+91.4286 771 49 Marlin.png
+100 4 223 Thon.png
+0 770 239 Lancet.png
+50 766 439 Sunfish.png
+50 508 449 Mackerel.png
+0 573 612 Lantern.png
+38.5714 260 456 Amphipods.png
+38.5714 3 617 Squid.png
+0 3 415 Crevette.png
+90 192 599 Dinoflagellates.png
+0 1 50
+0 2 50
+0 3 50
+1 3 50
+1 4 0
+1 5 50
+1 6 50
+2 3 50
+2 4 50
+2 5 50
+3 5 50
+3 6 50
+3 8 100
+3 10 100
+4 5 0
+4 6 50
+4 8 50
+5 7 50
+9 10 50
+10 11 0
+0 1 50
